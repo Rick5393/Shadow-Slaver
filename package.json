@@ -1,0 +1,15 @@
+{
+  "name": "shadow-tyrant-netlify",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-config.mjs",
+    "generate": "node scripts/generate-pages.mjs",
+    "schema:first-install": "node scripts/create-first-install-schema.mjs",
+    "check": "node scripts/check-project.mjs"
+  },
+  "dependencies": {
+    "@netlify/functions": "^4.2.5",
+    "@supabase/supabase-js": "^2.50.0"
+  }
+}
